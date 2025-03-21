@@ -411,6 +411,7 @@ img {
   .projects-one,
   .projects-two {
     gap: 2rem; /* Reduce from 5rem and 7rem */
+    grid-template-columns: 1fr;
     width: 100%;
   }
   .project-link.taxo,
@@ -424,15 +425,16 @@ img {
   .project-mindlist_container {
     flex-direction: column; /* Stack content */
     align-items: center;
+    width: 100%;
   }
 
-.project-one_content,
+/* .project-one_content,
 .project-one_text,
 .project-ogalaw_container,
 .project-mindlist_container,
 .project-two_header {
     width: 100%;
-}
+} */
   
   .project-img_container {
     width: 100%;
