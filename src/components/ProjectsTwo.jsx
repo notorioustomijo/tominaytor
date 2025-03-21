@@ -4,7 +4,7 @@ import mindlist from '../assets/mindlist.png';
 export default function ProjectsTwo() {
     return (
         <section className='projects-two'>
-            <a href="https://ogalawya.netlify.app" className='project-link ogalaw'>
+            <a href="https://ogalawya.netlify.app" className='project-link ogalaw' target="_blank">
                 <div className='project-ogalaw'>
                     <div className='project-ogalaw_container'>
                         <div className='project-two_header'>
@@ -21,7 +21,7 @@ export default function ProjectsTwo() {
                     </div>
                 </div>
             </a>
-            <a href="https://bit.ly/4j2PR1F" className='project-link mindlist'>
+            <a href="https://bit.ly/4j2PR1F" className='project-link mindlist' target="_blank">
                 <div className='project-mindlist'>
                     <div className='project-mindlist_container'>
                         <div className="project-img_container">

@@ -24,10 +24,10 @@ export default function AboutMe() {
                 <div className='about-me_links'>
                     <h2>My Links</h2>
                     <div className='about-me_links-list'>
-                        <a href="mailto:joshua.tomi1@gmail.com?Subject=Hi Tomi">EMAIL</a>
-                        <a href="https://www.linkedin.com/in/tominaytor">LINKEDIN</a>
-                        <a href="https://docs.google.com/document/d/14a3FnvMzWEm_kkirz-7Eo04yR6Jv9pFG/edit?usp=sharing&ouid=106769667411343784064&rtpof=true&sd=true">RESUME</a>
-                        <a href="https://www.github.com/notorioustomijo">GITHUB</a>
+                        <a href="mailto:joshua.tomi1@gmail.com?Subject=Hi Tomi" target="_blank">EMAIL</a>
+                        <a href="https://www.linkedin.com/in/tominaytor" target="_blank">LINKEDIN</a>
+                        <a href="https://docs.google.com/document/d/14a3FnvMzWEm_kkirz-7Eo04yR6Jv9pFG/edit?usp=sharing&ouid=106769667411343784064&rtpof=true&sd=true" target="_blank">RESUME</a>
+                        <a href="https://www.github.com/notorioustomijo" target="_blank">GITHUB</a>
                     </div>
                 </div>
             </div>

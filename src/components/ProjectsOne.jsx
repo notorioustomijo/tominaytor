@@ -4,7 +4,7 @@ import qt from '../assets/qt.png';
 export default function ProjectsOne() {
     return (
         <section className='projects-one'>
-            <a href="https://taxo-ai.netlify.app" className='project-link taxo'>
+            <a href="https://taxo-ai.netlify.app" className='project-link taxo' target="_blank">
                 <div className='project-one_content'>
                     <div className='project-one_text'>
                         <div className='project-one_header'>
@@ -22,7 +22,7 @@ export default function ProjectsOne() {
                     </div>
                 </div>
             </a>
-            <a href="http://bit.ly/4iooijl" className='project-link qt'>
+            <a href="http://bit.ly/4iooijl" className='project-link qt' target="_blank">
                 <div className='project-one_content'>
                     <div className='project-one_text'>
                         <div className='project-one_header'>
@@ -43,3 +43,4 @@ export default function ProjectsOne() {
         </section>
     )
 }
+
