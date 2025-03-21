@@ -470,7 +470,7 @@ img {
     .top-section,
     .mid-section,
     .bottom-section {
-      padding: 1.5rem;
+      padding: 1.5rem 2rem;
     }
     
     /* Banner */
@@ -507,6 +507,10 @@ img {
   .project-mindlist_container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .project-img_container {
+    width: 100%;
   }
 
   /* About Me */
