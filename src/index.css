@@ -1,0 +1,582 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0.5rem;
+  background-color: #EBE9E9;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Typography */
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1A0800;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  color: #4B403B;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.subtext {
+  color: #777;
+  font-size: 1rem;
+}
+
+a {
+  color: #1A0800;
+  text-decoration-color: #1A0800;
+}
+
+a:hover {
+  color: #FD6422;
+  text-decoration-color: #FD6422;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+  text-decoration: none;
+}
+
+
+/* Navigation */
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 9.125rem;
+  background-color: #FCFCFC;
+  border-bottom: 4px solid #EBE9E9;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* TopSection */
+.top-section {
+  padding: 2rem 9.125rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid #EBE9E9;
+}
+
+
+.banner {
+  background-color: #160A05;
+  padding: 2.5rem 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.25rem;
+}
+
+.banner-intro {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.banner p {
+  color: #e2dfdd;
+}
+
+.banner h1 {
+  color: #FAFAFA;
+}
+
+.profile-pic {
+  height: 10.9375rem;
+  width: 10.9375rem;
+  border-radius: 50%;
+  border: 4px solid #F7F7F7;
+}
+
+.projects-one,
+.projects-two {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 5rem;
+}
+
+.project-link h2 {
+  transition: color 0.5s ease;
+}
+
+.project-link:hover h2 {
+  color: #FD6422;
+}
+
+.project-link.taxo {
+  grid-column: span 6;
+}
+
+.project-link.qt {
+  grid-column: span 6;
+}
+
+.project-one_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-one_text,
+.project-one_header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.project-one_text {
+  gap: 1rem;
+}
+
+.project-one_header {
+  gap: 0.25rem;
+}
+
+.mid-section {
+  width: 100%;
+  padding: 2.5rem 9.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid #EBE9E9;
+}
+
+.recent-work {
+  width: 100%;
+}
+
+.recent-work img {
+  width: 100%;
+}
+
+.ancillary-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 4px solid #EBE9E9;
+}
+
+.projects-two {
+  padding-top: 2.5rem;
+  width: 100%;
+  gap: 7rem;
+}
+
+.project-link.ogalaw {
+  grid-column: span 7;
+}
+
+.project-link.mindlist {
+  grid-column: span 4;
+}
+
+.project-ogalaw_container,
+.project-mindlist_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.project-two_image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.project-two_header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.25rem;
+}
+
+.bottom-section {
+  padding: 2rem 9.125rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.about-me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.about-header {
+  width: 100%;
+}
+
+.about-me_text {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.about-me_textcopy {
+  width: 30%;
+}
+
+.about-me_text h2 {
+  width: 30%;
+}
+
+.about-me_text p {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.about-me_links {
+  width: 30%;
+}
+
+.about-me_links h2 {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.about-me_links-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.top-section,
+.mid-section,
+.bottom-section {
+  background-color: #FCFCFC;
+}
+
+.project-img_container {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-img_container img {
+  display: block;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.project-img_container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(229, 201, 189, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.project-link:hover .project-img_container::after {
+  animation: ripple 0.8s ease-out infinite;
+}
+
+@keyframes ripple {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.6;
+  }
+  100% {
+    width: 300%;
+    height: 300%;
+    opacity: 0;
+  }
+}
+
+.project-link:hover .project-img_container img {
+  transform: scale(1.05);
+}
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Add base styling for the logo */
+.logo {
+  width: 5rem; /* Default size for larger screens */
+}
+
+/* Ensure images are responsive by default */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Small screens: up to 480px */
+@media (max-width: 480px) {
+  /* Navigation */
+  nav {
+    padding: 1rem; /* Reduce from 1.5rem 9.125rem */
+  }
+  .logo {
+    width: 2.5rem; /* Smaller logo */
+  }
+
+  /* Sections */
+  .top-section,
+  .mid-section,
+  .bottom-section {
+    padding: 1rem; /* Reduce from 2rem 9.125rem */
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column; /* Stack text and image */
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .banner-text {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 6rem; /* Smaller profile picture */
+    height: 6rem;
+    margin-top: 1rem; /* Add spacing */
+  }
+  
+  /* Projects One and Two */
+  .projects-one,
+  .projects-two {
+    gap: 2rem; /* Reduce from 5rem and 7rem */
+  }
+  .project-link.taxo,
+  .project-link.qt,
+  .project-link.ogalaw,
+  .project-link.mindlist {
+    grid-column: span 12; /* Full width */
+  }
+  .project-one_content,
+  .project-ogalaw_container,
+  .project-mindlist_container {
+    flex-direction: column; /* Stack content */
+    align-items: center;
+  }
+  
+  .project-img_container {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  /* About Me */
+  .about-me_text {
+    flex-direction: column; /* Stack text blocks */
+  }
+  .about-me_text h2,
+  .about-me_textcopy,
+  .about-me_links {
+    width: 100%; /* Full width */
+    margin-bottom: 1rem;
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 1.5rem; /* Reduce from 3rem */
+  }
+  h2 {
+    font-size: 1.25rem; /* Reduce from 2rem */
+  }
+  p {
+    font-size: 0.875rem; /* Reduce from 1.125rem */
+  }
+}
+
+/* Medium screens: 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Navigation */
+  nav {
+    padding: 1rem;
+  }
+  /* nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    } */
+    .logo {
+      width: 3rem;
+    }
+    
+    /* Sections */
+    .top-section,
+    .mid-section,
+    .bottom-section {
+      padding: 1.5rem;
+    }
+    
+    /* Banner */
+    .banner {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    
+    .banner-text {
+      text-align: center;
+      align-items: center;
+    }
+
+  .profile-pic {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+  }
+
+  /* Projects One and Two */
+  .projects-one,
+  .projects-two {
+    gap: 3rem;
+  }
+  .project-link.taxo,
+  .project-link.qt,
+  .project-link.ogalaw,
+  .project-link.mindlist {
+    grid-column: span 12;
+  }
+  .project-one_content,
+  .project-ogalaw_container,
+  .project-mindlist_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* About Me */
+  .about-me_text {
+    flex-direction: column;
+  }
+  .about-me_text h2,
+  .about-me_textcopy,
+  .about-me_links {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Large screens: 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Navigation */
+  nav {
+    padding: 1.5rem 4rem; /* Slightly reduce padding */
+  }
+
+  /* Sections */
+  .top-section,
+  .mid-section,
+  .bottom-section {
+    padding: 2rem 4rem;
+  }
+
+  /* Banner */
+  .banner {
+    padding: 2.5rem 1.5rem;
+  }
+  .profile-pic {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  /* Projects One and Two */
+  .projects-one,
+  .projects-two {
+    gap: 4rem;
+  }
+  /* Keep grid columns as is, or adjust slightly */
+  .project-link.taxo,
+  .project-link.qt {
+    grid-column: span 6;
+  }
+  .project-link.ogalaw {
+    grid-column: span 7;
+  }
+  .project-link.mindlist {
+    grid-column: span 4;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+}
