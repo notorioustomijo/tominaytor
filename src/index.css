@@ -428,6 +428,7 @@ img {
   
   .project-img_container {
     width: 100%;
+    height: auto;
     margin-top: 1rem;
   }
   
