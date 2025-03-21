@@ -425,6 +425,14 @@ img {
     flex-direction: column; /* Stack content */
     align-items: center;
   }
+
+.project-one_content,
+.project-one_text,
+.project-ogalaw_container,
+.project-mindlist_container,
+.project-two_header {
+    width: 100%;
+}
   
   .project-img_container {
     width: 100%;
