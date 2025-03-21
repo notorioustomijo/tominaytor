@@ -381,11 +381,16 @@ img {
     width: 2.5rem; /* Smaller logo */
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   /* Sections */
   .top-section,
   .mid-section,
   .bottom-section {
     padding: 1rem; /* Reduce from 2rem 9.125rem */
+    width: 100%;
   }
 
   /* Banner */
@@ -410,7 +415,7 @@ img {
   /* Projects One and Two */
   .projects-one,
   .projects-two {
-    gap: 2rem; /* Reduce from 5rem and 7rem */
+    gap: 1rem; /* Reduce from 5rem and 7rem */
     grid-template-columns: 1fr;
     width: 100%;
   }
